@@ -9,9 +9,9 @@ import SwiftUI
 
 struct BlackTeaView: View {
     var body: some View {
-    
+        
         VStack {
-       
+            
             VStack(alignment: .leading) {
                 
                 Text("Black Tea")
@@ -45,95 +45,95 @@ struct BlackTeaView: View {
     Black tea is often sold in some kind of blend, which will determine its flavor profile. The season and place where a tea plant was grown will also impact its flavor. As a general rule, black tea is produced in China, India, Sri Lanka, or Nepal.
 
 """ )
-    .padding()
-    .foregroundColor(.white)
+                            .padding()
+                            .foregroundColor(.white)
                         
                         
                         
                         HStack {
                             
                             ZStack(alignment: .top) {
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
-                        
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
                                 VStack {
                                     
                                     ZStack(alignment: .bottom) {
-                                
-                            Image("Assam")
-                                .resizable()
-                                .frame(width: 175, height: 125)
-                                .cornerRadius(15)
-                            Spacer()
-                                .frame(width: 175, height: 30)
-                                .background(Color.secondary)
-                                .cornerRadius(5)
-                                .opacity(1.0)
-                                
-                            
-                                    
-                           Text("Assam Black Tea")
-                            .foregroundColor(.white)
+                                        
+                                        Image("Assam")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("Assam Black Tea")
+                                            .foregroundColor(.white)
                                     }
                                     ZStack {
-                                    
-                           Spacer()
-                            .frame(width: 175 , height: 150)
-                            .background(Color.secondary)
-                            .opacity(0.8)
-                            .cornerRadius(15)
-                            
-                            Text("Assam black tea, which has a malt-like flavor")
-                                .foregroundColor(.white)
-                                .padding()
-                                    
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        Text("Assam black tea, which has a malt-like flavor")
+                                            .foregroundColor(.white)
+                                            .padding()
+                                        
                                     }.padding()
                                 }
                                 
                             }
                             
                             ZStack(alignment: .top) {
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
-                        
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
                                 VStack {
                                     
                                     ZStack(alignment: .bottom) {
-                                
-                            Image("Ceylon")
-                                .resizable()
-                                .frame(width: 175, height: 125)
-                                .cornerRadius(15)
-                            Spacer()
-                                .frame(width: 175, height: 30)
-                                .background(Color.secondary)
-                                .cornerRadius(5)
-                                .opacity(1.0)
-                                
-                            
-                                    
-                           Text("Ceylon Black Tea")
-                            .foregroundColor(.white)
+                                        
+                                        Image("Ceylon")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("Ceylon Black Tea")
+                                            .foregroundColor(.white)
                                     }
                                     ZStack {
-                                    
-                           Spacer()
-                            .frame(width: 175 , height: 150)
-                            .background(Color.secondary)
-                            .opacity(0.8)
-                            .cornerRadius(15)
-                            
-                            Text("Ceylon black tea, which features bold flavor with hints of chocolate or spices")
-                                .foregroundColor(.white)
-                                .padding()
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        Text("Ceylon black tea, which features bold flavor with hints of chocolate or spices")
+                                            .foregroundColor(.white)
+                                            .padding()
                                     }.padding()
                                 }
                                 
@@ -144,87 +144,87 @@ struct BlackTeaView: View {
                         HStack {
                             
                             ZStack(alignment: .top) {
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
-                        
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
                                 VStack {
                                     
                                     ZStack(alignment: .bottom) {
-                                
-                            Image("Assam")
-                                .resizable()
-                                .frame(width: 175, height: 125)
-                                .cornerRadius(15)
-                            Spacer()
-                                .frame(width: 175, height: 30)
-                                .background(Color.secondary)
-                                .cornerRadius(5)
-                                .opacity(1.0)
-                                
-                            
-                                    
-                           Text("Darjeeling Black Tea")
-                            .foregroundColor(.white)
+                                        
+                                        Image("Darjeeling")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("Darjeeling Black Tea")
+                                            .foregroundColor(.white)
                                     }
                                     ZStack {
-                                    
-                           Spacer()
-                            .frame(width: 175 , height: 150)
-                            .background(Color.secondary)
-                            .opacity(0.8)
-                            .cornerRadius(15)
-                            
-                            Text("Darjeeling, which is a more delicate form of black tea that features fruity or floral elements")
-                                .foregroundColor(.white)
-                                .padding()
-                                    
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        Text("Darjeeling, which is a more delicate form of black tea that features fruity or floral elements")
+                                            .foregroundColor(.white)
+                                            .padding()
+                                        
                                     }.padding()
                                 }
                                 
                             }
                             
                             ZStack(alignment: .top) {
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
-                        
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
                                 VStack {
                                     
                                     ZStack(alignment: .bottom) {
-                                
-                            Image("Ceylon")
-                                .resizable()
-                                .frame(width: 175, height: 125)
-                                .cornerRadius(15)
-                            Spacer()
-                                .frame(width: 175, height: 30)
-                                .background(Color.secondary)
-                                .cornerRadius(5)
-                                .opacity(1.0)
-                                
-                            
-                                    
-                           Text("Ceylon Black Tea")
-                            .foregroundColor(.white)
+                                        
+                                        Image("EarlGrey")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("Earl Grey Black Tea")
+                                            .foregroundColor(.white)
                                     }
                                     ZStack {
-                                    
-                           Spacer()
-                            .frame(width: 175 , height: 150)
-                            .background(Color.secondary)
-                            .opacity(0.8)
-                            .cornerRadius(15)
-                            
-                            Text("Ceylon black tea, which features bold flavor with hints of chocolate or spices")
-                                .foregroundColor(.white)
-                                .padding()
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        Text("Earl Grey, which consists of black tea flavored with bergamot and/or citrus")
+                                            .foregroundColor(.white)
+                                            .padding()
                                     }.padding()
                                 }
                                 
@@ -232,20 +232,96 @@ struct BlackTeaView: View {
                         }
                         
                         HStack {
+                          
+                            ZStack(alignment: .top) {
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
+                                VStack {
+                                    
+                                    ZStack(alignment: .bottom) {
+                                        
+                                        Image("English")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("English Breakfast Tea")
+                                            .foregroundColor(.white)
+                                    }
+                                    ZStack {
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        
+                                        Text("English Breakfast, which tends to be full-bodied and may most closely resemble Assam or Ceylon black tea in flavor")
+                                            .foregroundColor(.white)
+                                            .padding()
+                                        
+                                    }.padding()
+                                }
+                                
+                            }
                             
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
-                            
-                            Spacer()
-                                .frame(width: 175, height: 300)
-                                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                .opacity(0.5)
-                                .cornerRadius(15)
-                                .padding()
+                            ZStack(alignment: .top) {
+                                Spacer()
+                                    .frame(width: 175, height: 300)
+                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                                    .opacity(0.5)
+                                    .cornerRadius(15)
+                                    .padding()
+                                
+                                VStack {
+                                    
+                                    ZStack(alignment: .bottom) {
+                                        
+                                        Image("Chai")
+                                            .resizable()
+                                            .frame(width: 175, height: 125)
+                                            .cornerRadius(15)
+                                        Spacer()
+                                            .frame(width: 175, height: 30)
+                                            .background(Color.secondary)
+                                            .cornerRadius(5)
+                                            .opacity(1.0)
+                                        
+                                        
+                                        
+                                        Text("Masala Chai tea")
+                                            .foregroundColor(.white)
+                                    }
+                                    ZStack {
+                                        
+                                        Spacer()
+                                            .frame(width: 175 , height: 150)
+                                            .background(Color.secondary)
+                                            .opacity(0.8)
+                                            .cornerRadius(15)
+                                        
+                                        
+                                        Text("Masala Chai tea, which is blended with a variety of spices such as cardamom, cloves, and peppercorns")
+                                            .foregroundColor(.white)
+                                            .padding()
+                                    }.padding()
+                                }
+
+                                
+                            }
                             
                         }
                         
@@ -258,7 +334,7 @@ struct BlackTeaView: View {
         }.background(Color.black).ignoresSafeArea()
         .navigationBarHidden(true)
         
-      
+        
     }
 }
 

@@ -327,9 +327,9 @@ Otherwise known as wulong or “black dragon” tea, oolong tea is semi-oxidized
                     
                 }
                 
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+            }.background(Color.black).ignoresSafeArea()
+            .navigationBarHidden(false)
+        }.background(Color.black)
     }
 }
 

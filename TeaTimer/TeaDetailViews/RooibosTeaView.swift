@@ -235,9 +235,9 @@ This caffeine-free herbal tea is well-known for its rich, red hue and sweet, ear
                     
                 }
                 
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+            }.background(Color.black).ignoresSafeArea()
+            .navigationBarHidden(false)
+        }.background(Color.black)
     }
 }
 

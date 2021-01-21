@@ -237,9 +237,9 @@ There are two primary varieties of chamomile: German Chamomile and Roman Chamomi
                     
                 }
                 
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+            }.background(Color.black).ignoresSafeArea()
+            .navigationBarHidden(false)
+        }.background(Color.black)
     }
 }
 

@@ -329,9 +329,9 @@ Of course, different green teas may boast slightly different flavors, which can 
                     
                 }
                 
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+            }.background(Color.black).ignoresSafeArea()
+            .navigationBarHidden(false)
+        }.background(Color.black)
     }
 }
 

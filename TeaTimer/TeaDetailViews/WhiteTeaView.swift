@@ -329,9 +329,9 @@ This style of processing leads to a light, delicate, and fruity flavor. White te
                     
                 }
                 
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+            }.background(Color.black).ignoresSafeArea()
+            .navigationBarHidden(false)
+        }.background(Color.black)
     }
 }
 

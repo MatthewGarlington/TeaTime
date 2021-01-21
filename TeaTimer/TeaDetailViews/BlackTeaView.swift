@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BlackTeaView: View {
     var body: some View {
+ 
         
         VStack {
             
@@ -327,12 +328,15 @@ struct BlackTeaView: View {
                         
                     }
                     
-                    
                 }
-                
-            }
-        }.background(Color.black).ignoresSafeArea()
-        .navigationBarHidden(true)
+              
+            }.navigationBarHidden(false)
+                .background(Color.black).ignoresSafeArea()
+            } .background(Color.black)
+        
+    
+      
+        
         
         
     }

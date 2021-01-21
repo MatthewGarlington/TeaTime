@@ -53,7 +53,7 @@ struct ContentView: View {
                             HStack(spacing: 0) {
                                 
                                 NavigationLink(
-                                    destination: Text("Black Tea Navigation Link Destination"),
+                                    destination: BlackTeaView(),
                                     label: {
                                   
                                     
@@ -84,7 +84,7 @@ struct ContentView: View {
                                     })
                                 
                                 NavigationLink(
-                                    destination: Text("Chamomile Tea Navigation Link Destination"),
+                                    destination: ChamomileTeaView(),
                                     label: {
                                 ZStack {
                                 Spacer()
@@ -118,7 +118,7 @@ struct ContentView: View {
                                 
                                 
                                 NavigationLink(
-                                    destination: Text("Green Tea Navigation Link Destination"),
+                                    destination: GreenTeaView(),
                                     label: {
                                 
                                 ZStack {
@@ -151,7 +151,7 @@ struct ContentView: View {
                                 
                                 
                                 NavigationLink(
-                                    destination: Text("Hibiscus Tea Navigation Link Destination"),
+                                    destination: HibiscusTeaView(),
                                     label: {
                                 
                                 ZStack {
@@ -185,7 +185,7 @@ struct ContentView: View {
                             HStack(spacing: 0) {
                                 
                                 NavigationLink(
-                                    destination: Text("Oolong Tea Navigation Link Destination"),
+                                    destination: OolongTeaView(),
                                     label: {
                                 ZStack {
                                 Spacer()
@@ -215,7 +215,7 @@ struct ContentView: View {
                                     })
                                 
                                 NavigationLink(
-                                    destination: Text("Rooibos Tea Navigation Link Destination"),
+                                    destination: RooibosTeaView(),
                                     label: {
                                 
                                 ZStack {
@@ -249,7 +249,7 @@ struct ContentView: View {
                             }
                             HStack(spacing: 0) {
                                 NavigationLink(
-                                    destination: Text("White Tea Navigation Link Destination"),
+                                    destination: WhiteTeaView(),
                                     label: {
                                 ZStack {
                                 Spacer()
@@ -277,36 +277,7 @@ struct ContentView: View {
                                 }
                                     })
                                 
-                                
-                                NavigationLink(
-                                    destination: Text("Mint Tea Navigation Link Destination"),
-                                    label: {
-                                ZStack {
-                                Spacer()
-                                    .frame(width: 200, height: 200)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .clipShape(Circle())
-                                
-                                
-                                Image("Mint")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 200, height: 125)
-                                    .clipShape(Circle())
-                                    VStack(alignment: .center, spacing: 0) {
-                                  
-                                    Spacer()
-                                        .frame(height: 150)
-                                        
-                                    Text("Mint")
-                                        .bold()
-                                        .foregroundColor(Color.white)
-                                    }
-                                
-                                }
-                                
-                                    })
+                    
                                 
                             }
                             

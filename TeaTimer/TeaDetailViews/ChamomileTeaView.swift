@@ -48,151 +48,23 @@ There are two primary varieties of chamomile: German Chamomile and Roman Chamomi
                         
                         
                         
-                        HStack {
+                        HStack(spacing: 20) {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 330)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Chamomile2")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Egyptian Chamomile")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 200)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("This type of chamomile is regarded as the highest quality grade of chamomile tea.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
+                           EgyptianTile()
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 330)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Chamomile3")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("German Chamomile")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 200)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("German chamomile offers a subtle apple flavor that is suitable for most tastes")
-                                            .foregroundColor(.white)
-                                            .padding(.horizontal)
-                                         
-                                    }.padding()
-                                }
-                                
-                            }
-                            
+                           GermanTile()
                         }
                         
-                        HStack {
+                        HStack(spacing: 20) {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 300)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Chamomile4")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Roman Chamomile")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 150)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Best brands often blend Roman chamomile with sweeter herbal teas to even out the strong, bitter notes.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
-                            
+                            RomanTile()
                             ZStack(alignment: .top) {
                                 Spacer()
                                     .frame(width: 175, height: 300)
                                     .background(Color.secondary)
                                     .opacity(0.5)
                                     .cornerRadius(15)
-                                    .padding()
+                                 
                                 
                                 VStack {
                                     
@@ -223,8 +95,8 @@ There are two primary varieties of chamomile: German Chamomile and Roman Chamomi
                                         
                                         Text("")
                                             .foregroundColor(.white)
-                                            .padding()
-                                    }.padding()
+                                            
+                                    }
                                 }
                                 
                             }

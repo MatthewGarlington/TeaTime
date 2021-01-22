@@ -48,143 +48,17 @@ The red brew is simultaneously sweet and tart (think of it like the tea equivale
                         
                         
                         
-                        HStack {
+                        HStack(spacing: 20) {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Agua")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Agua de jamaica")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Although the name may imply this drink is traditional to Jamaica, it’s not. Jamaica is actually a word for „hibiscus flower“ and this tea is specific to Mexico.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
+                           AguaTile()
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Zobo")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Nigerian Zobo")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Zobo is the traditional Nigerian hibiscus drink with water, dried hibiscus flowers, sugar, ginger and sometimes other spices and fruits. It’s usually served chilled.")
-                                            .foregroundColor(.white)
-                                            .padding(.horizontal)
-                                         
-                                    }.padding()
-                                }
-                                
-                            }
+                           ZoboTile()
                             
                         }
                         
-                        HStack {
+                        HStack(spacing: 20) {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Karkade")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Egyptian Karkade")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Traditional Egyptian hibiscus tea is called Karkade, and it’s made by boiling sugar and hibiscus flowers in water. It’s served both hot and cold.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
+                           KarkadeTile()
                             
                             ZStack(alignment: .top) {
                                 Spacer()
@@ -192,7 +66,7 @@ The red brew is simultaneously sweet and tart (think of it like the tea equivale
                                     .background(Color.secondary)
                                     .opacity(0.5)
                                     .cornerRadius(15)
-                                    .padding()
+                                 
                                 
                                 VStack {
                                     
@@ -223,8 +97,8 @@ The red brew is simultaneously sweet and tart (think of it like the tea equivale
                                         
                                         Text("")
                                             .foregroundColor(.white)
-                                            .padding()
-                                    }.padding()
+                                  
+                                    }
                                 }
                                 
                             }

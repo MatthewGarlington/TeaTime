@@ -48,141 +48,17 @@ This caffeine-free herbal tea is well-known for its rich, red hue and sweet, ear
                         
                         HStack {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Original Rooibos")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Original Rooibos")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("The most popular type of rooibos tea is the one it gets its name from-”red bush” tea, named for the color of the Aspalathus Linearis leaves after they have undergone oxidation and fermentation treatments.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
-                            
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Green Rooibos")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Green Rooibos")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Green rooibos tea is made from unfermented leaves and contains twice as many antioxidants as regular rooibos tea.")
-                                            .foregroundColor(.white)
-                                            .padding(.horizontal)
-                                         
-                                    }.padding()
-                                }
-                                
-                            }
+                            OriginalRooibosTile()
+                            GreenRooibosTile()
                             
                         }
                         
                         HStack {
                             
-                            ZStack(alignment: .top) {
-                                Spacer()
-                                    .frame(width: 175, height: 450)
-                                    .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
-                                    .opacity(0.5)
-                                    .cornerRadius(15)
-                                    .padding()
-                                
-                                VStack {
-                                    
-                                    ZStack(alignment: .bottom) {
-                                        
-                                        Image("Flavored Rooibos")
-                                            .resizable()
-                                            .frame(width: 175, height: 125)
-                                            .cornerRadius(15)
-                                        Spacer()
-                                            .frame(width: 175, height: 30)
-                                            .background(Color.secondary)
-                                            .cornerRadius(5)
-                                            .opacity(1.0)
-                                        
-                                        
-                                        
-                                        Text("Flavored Rooibos")
-                                            .foregroundColor(.white)
-                                    }
-                                    ZStack {
-                                        
-                                        Spacer()
-                                            .frame(width: 175 , height: 300)
-                                            .background(Color.secondary)
-                                            .opacity(0.8)
-                                            .cornerRadius(15)
-                                        
-                                        Text("Both regular and green rooibos teas have a delectable flavor, but now tea producers are combining rooibos with a variety of flavors that complement the tea’s core flavor.")
-                                            .foregroundColor(.white)
-                                            .padding()
-                                        
-                                    }.padding()
-                                }
-                                
-                            }
+                            
+                            FlavoredRooibosTile()
+                            
+                         
                             
                             ZStack(alignment: .top) {
                                 Spacer()
@@ -190,7 +66,7 @@ This caffeine-free herbal tea is well-known for its rich, red hue and sweet, ear
                                     .background(Color.secondary)
                                     .opacity(0.5)
                                     .cornerRadius(15)
-                                    .padding()
+                                  
                                 
                                 VStack {
                                     
@@ -221,8 +97,8 @@ This caffeine-free herbal tea is well-known for its rich, red hue and sweet, ear
                                         
                                         Text("")
                                             .foregroundColor(.white)
-                                            .padding()
-                                    }.padding()
+                                            
+                                    }
                                 }
                                 
                             }

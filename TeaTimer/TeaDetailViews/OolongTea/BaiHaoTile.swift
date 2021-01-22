@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BiluochunTile: View {
+struct BaiHaoTile: View {
     var body: some View {
         ZStack(alignment: .top) {
             Spacer()
@@ -46,6 +46,7 @@ struct BiluochunTile: View {
                     
                     Text("Bai Hao (aka White Tip), which has a fruity, crisp finish")
                         .foregroundColor(.white)
+                        .frame(width: 150 , height: 150)
                    
                     
                 }
@@ -55,8 +56,8 @@ struct BiluochunTile: View {
     }
 }
 
-struct BiluochunTile_Previews: PreviewProvider {
+struct BaiHaoTile_Previews: PreviewProvider {
     static var previews: some View {
-        BiluochunTile()
+        BaiHaoTile()
     }
 }

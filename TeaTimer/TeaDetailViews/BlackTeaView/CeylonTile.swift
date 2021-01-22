@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CeylonTileview: View {
+struct CeylonTile: View {
     var body: some View {
         ZStack(alignment: .top) {
             Spacer()
@@ -15,7 +15,7 @@ struct CeylonTileview: View {
                 .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
                 .opacity(0.5)
                 .cornerRadius(15)
-                .padding()
+             
             
             VStack {
                 
@@ -45,17 +45,18 @@ struct CeylonTileview: View {
                         .cornerRadius(15)
                     
                     Text("Ceylon black tea, which features bold flavor with hints of chocolate or spices")
+                        .frame(width: 175 , height: 150)
                         .foregroundColor(.white)
-                        .padding()
-                }.padding()
+                       
+                }
             }
             
         }
     }
 }
 
-struct CeylonTileview_Previews: PreviewProvider {
+struct CeylonTile_Previews: PreviewProvider {
     static var previews: some View {
-        CeylonTileview()
+        CeylonTile()
     }
 }

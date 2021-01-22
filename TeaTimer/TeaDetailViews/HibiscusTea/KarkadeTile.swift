@@ -9,7 +9,50 @@ import SwiftUI
 
 struct KarkadeTile: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .top) {
+            Spacer()
+                .frame(width: 175, height: 450)
+                .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
+                .opacity(0.5)
+                .cornerRadius(15)
+                
+            
+            VStack {
+                
+                ZStack(alignment: .bottom) {
+                    
+                    Image("Karkade")
+                        .resizable()
+                        .frame(width: 175, height: 125)
+                        .cornerRadius(15)
+                    Spacer()
+                        .frame(width: 175, height: 30)
+                        .background(Color.secondary)
+                        .cornerRadius(5)
+                        .opacity(1.0)
+                    
+                    
+                    
+                    Text("Egyptian Karkade")
+                        .foregroundColor(.white)
+                }
+                ZStack {
+                    
+                    Spacer()
+                        .frame(width: 175 , height: 300)
+                        .background(Color.secondary)
+                        .opacity(0.8)
+                        .cornerRadius(15)
+                    
+                    Text("Traditional Egyptian hibiscus tea is called Karkade, and it’s made by boiling sugar and hibiscus flowers in water. It’s served both hot and cold.")
+                        .foregroundColor(.white)
+                        .frame(width: 150 , height: 250)
+                        
+                    
+                }
+            }
+            
+        }
     }
 }
 

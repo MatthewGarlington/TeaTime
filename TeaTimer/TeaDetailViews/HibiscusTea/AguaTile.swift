@@ -15,7 +15,7 @@ struct AguaTile: View {
                 .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
                 .opacity(0.5)
                 .cornerRadius(15)
-                .padding()
+              
             
             VStack {
                 
@@ -46,9 +46,10 @@ struct AguaTile: View {
                     
                     Text("Although the name may imply this drink is traditional to Jamaica, it’s not. Jamaica is actually a word for „hibiscus flower“ and this tea is specific to Mexico.")
                         .foregroundColor(.white)
-                        .padding()
+                        .frame(width: 150 , height: 250)
                     
-                }.padding()
+                    
+                }
             }
             
         }

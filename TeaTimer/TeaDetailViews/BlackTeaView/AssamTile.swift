@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AssamBlackTeaTile: View {
+struct AssamTile: View {
     var body: some View {
         ZStack(alignment: .top) {
             Spacer()
@@ -15,7 +15,7 @@ struct AssamBlackTeaTile: View {
                 .background(Color.init(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)))
                 .opacity(0.5)
                 .cornerRadius(15)
-                .padding()
+              
             
             VStack {
                 
@@ -46,17 +46,18 @@ struct AssamBlackTeaTile: View {
                     
                     Text("Assam black tea, which has a malt-like flavor")
                         .foregroundColor(.white)
-                        .padding()
+                        .frame(width: 175 , height: 150)
+                     
                     
-                }.padding()
+                }
             }
             
         }
     }
 }
 
-struct AssamBlackTeaTile_Previews: PreviewProvider {
+struct AssamTile_Previews: PreviewProvider {
     static var previews: some View {
-        AssamBlackTeaTile()
+        AssamTile()
     }
 }
